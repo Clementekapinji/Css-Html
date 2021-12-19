@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(94, 102, 168);
+}
+ul > li{
+    padding-bottom: 20px;
+}
+
+ a:hover{
+    color: blue;
+    background-color: darkgoldenrod;
+}
+div > ul{
+   display: none;
+}
+
+div:hover{
+    color: blue;
+}
+div:hover > ul{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    margin-left: 10px;
+}
+a:active{
+    color: red;
+}
+div:hover{
+    width: 270px;
+    height: 220px;
+    background-color: chocolate;
+}
+div{
+    width: 180px;
+}
