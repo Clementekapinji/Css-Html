@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td,th{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        tbody > tr:nth-child(odd){ /*even, odd, 2n -1*/
+            background-color: rgb(139, 139, 139);
+        }
+        tbody > tr:nth-child(even){
+            background-color: darkcyan;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(71, 71, 71);
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <table>
+        <caption>Populacao das Unidades Federais</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col"style="width:50px;">Populacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td>4 144 597</td>
+            </tr>
+
+            <tr>
+                <td>Distrito federal</td>
+                <td>3 015 268</td>
+            </tr>
+
+            <tr>
+                <td>Alagoas</td>
+                <td>3 337 357</td>
+            </tr>
+
+            <tr>
+                <td>Sergice</td>
+                <td>2 298 696</td>
+            </tr>
+
+            <tr>
+                <td>Parana</td>
+                <td>11 433 957</td>
+            </tr>
+
+            <tr>
+                <td>Paraba</td>
+                <td>4 018 127</td>
+            </tr>
+                
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td>4 018 127</td>
+            </tr>
+
+            <tr>
+                <td>Mato grosso</td>
+                <td>3 484 466</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td>14 873 064</td>
+            </tr>
+
+            <tr>
+                <td>Angonia</td>
+                <td>12 548 456</td>
+            </tr>
+
+            <tr>
+                <td>Piaul</td>
+                <td>3 273 227</td>
+            </tr>
+
+            <tr>
+                <td>Rosantina</td>
+                <td>1 777 225</td>
+            </tr>
+
+            <tr>
+                <td>Permabuco</td>
+                <td>9 557 071</td>
+            </tr>
+
+            <tr>
+                <td>Songo</td>
+                <td>12 453 876</td>
+            </tr>
+
+            <tr>
+                <td>Mutarara</td>
+                <td>9 321 567</td>
+            </tr>
+
+            <tr>
+                <td>Chiuta</td>
+                <td>5 643 786</td>
+            </tr>
+
+            <tr>
+                <td>Tsangano</td>
+                <td>6 327 875</td>
+            </tr>
+
+            <tr>
+                <td>Calomue</td>
+                <td>4 564 213</td>
+            </tr>
+
+            <tr>
+                <td>Domue</td>
+                <td>7 423 167</td>
+            </tr>
+            
+            <tr>
+                <td>Lifidzi</td>
+                <td>7 983 123</td>
+            </tr>
+
+            <tr>
+                <td>Cahora bassa</td>
+                <td>4 675 123</td>
+            </tr>
+
+            <tr>
+                <td>Maue</td>
+                <td>6 332 768</td>
+            </tr>
+
+            <tr>
+                <td>Ntengo wa mbalame</td>
+                <td>5 336 783</td>
+            </tr>
+            
+
+        </tbody>
+        <tfoot>
+           <tr>
+               <th scope="row"> Total de abitantes</th>
+               <td>0000</td>
+           </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
